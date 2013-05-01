@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Calendar Appts</title>
+    <meta name="description" content="Facebook Calendar Assignment">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/calendar.css">
+</head>
+<body>
+
+<div class="fbHeader">
+    <span>Calendar Appts Layout</span>
+</div>
+
+<div class="fbAssignment">
+    <div class="data floatLeft">
+        <div class="fixture-data">
+            <div id="FIXTURES3">Sample Data 1</div>
+            <div id="FIXTURES2">Sample Data 2 </div>
+            <div id="FIXTURES">Sample Data 3 </div>
+            <div id="FIXTURES1">Sample Data 4 </div>
+        </div>
+        
+        <div class="data-button">
+            <button id="generate-calendar">Generate</button>
+        </div>
+        <div class="input-data">
+            <span>Note: Supply json data sorted by start time</span>
+            <textarea id="input-data-textarea"></textarea>
+        </div>
+        
+    </div>
+    <div class="calendar floatLeft">
+        <div class="floatLeft time-container">
+            <!-- time slots go here -->
+        </div>
+        <div class="floatLeft calendar-container bgLightGray">
+            <div class="calendar-appt-container">
+                <!-- Appts UI is Here -->
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+    <!-- load scripts -->
+
+    <!-- underscore utility framework -->
+    <script src="js/underscore.js"></script>
+    <!-- jQuery framework -->
+    <script src="js/jquery-1.7.2.js"></script>
+    <!-- Calendar Logic -->
+    <script src="js/fbcalendar.js"></script>
+
+</body>
+</html>

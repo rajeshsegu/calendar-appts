@@ -1,0 +1,135 @@
+.fbHeader {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #4B6EA9;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    height: 30px;
+}
+
+.fbHeader span {
+    padding-left: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fbAssignment {
+    padding: 50px;
+}
+
+.data {
+    width: 300px;
+    height: 720px;
+}
+
+.input-data {
+    width: 100%;
+    height: 600px;
+}
+
+.input-data span {
+    color: gray;
+    font-size: 12px;
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+}
+
+.fixture-data div {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.data-button {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.calendar {
+    height: 720px;
+    padding-left: 20px;
+}
+
+.time-container {
+   height: 100%;
+   width: 100px;
+   margin-top: -10px;
+   padding-right: 5px;
+   color: gray;
+}
+
+.calendar-container {
+    padding: 0 10px;
+    height: 100%;
+    border-left: 2px solid gray;
+}
+
+.calendar-appt-container {
+    position: relative;
+    width: 600px;
+    height: 100%;
+}
+
+.apptContainer {
+    border: 1px solid #D6D6D6;
+    border-left: 4px solid #4B6EA8;
+    height: 100%;
+}
+
+.apptContainer span {
+    padding-left: 10px;
+}
+
+.apptName {
+    font-size: 12px;
+    color: #6784B5;
+}
+
+.apptLoc {
+    font-size: 10px;
+    color: #797979;
+}
+
+.timeSlot {
+    height: 30px;
+    text-align: right;
+    font-size: 13px;
+}
+
+.time-container .odd {
+    font-size: 12px;
+}
+
+.time-container .even {
+    font-weight: bold;
+}
+
+/* Generic styles */
+
+.bgLightGray {
+    background-color: #ECECEC;
+}
+
+.bgWhite {
+    background-color: #FFF;
+}
+
+.bgGray {
+    background-color: gray;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
